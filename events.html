@@ -15,6 +15,7 @@
     <script src="_static/doctools.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Usage - How to use parader!" href="usage.html" />
     <link rel="prev" title="Base - The base plug for parader" href="base.html" />
    
   <link rel="stylesheet" href="_static/custom.css" type="text/css" />
@@ -34,6 +35,12 @@
             
   <section id="module-src.events">
 <span id="events"></span><h1>Events<a class="headerlink" href="#module-src.events" title="Permalink to this headline">¶</a></h1>
+<dl class="py function">
+<dt class="sig sig-object py" id="src.events.call">
+<span class="sig-prename descclassname"><span class="pre">src.events.</span></span><span class="sig-name descname"><span class="pre">call</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">f</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#src.events.call" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calls a function</p>
+</dd></dl>
+
 <dl class="py function">
 <dt class="sig sig-object py" id="src.events.callBookmarkClicked">
 <span class="sig-prename descclassname"><span class="pre">src.events.</span></span><span class="sig-name descname"><span class="pre">callBookmarkClicked</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">bookmark</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#src.events.callBookmarkClicked" title="Permalink to this definition">¶</a></dt>
@@ -72,8 +79,14 @@
 
 <dl class="py data">
 <dt class="sig sig-object py" id="src.events.info">
-<span class="sig-prename descclassname"><span class="pre">src.events.</span></span><span class="sig-name descname"><span class="pre">info</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">any</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">{'bookmarks':</span> <span class="pre">[],</span> <span class="pre">'change_url_call':</span> <span class="pre">None,</span> <span class="pre">'current_url':</span> <span class="pre">'',</span> <span class="pre">'refresh_call':</span> <span class="pre">None,</span> <span class="pre">'reload_bookmarks':</span> <span class="pre">None,</span> <span class="pre">'update_url_bar_call':</span> <span class="pre">None}</span></em><a class="headerlink" href="#src.events.info" title="Permalink to this definition">¶</a></dt>
+<span class="sig-prename descclassname"><span class="pre">src.events.</span></span><span class="sig-name descname"><span class="pre">info</span></span><em class="property"><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">any</span><span class="p"><span class="pre">]</span></span></em><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">{'bookmarks':</span> <span class="pre">[],</span> <span class="pre">'change_url_call':</span> <span class="pre">None,</span> <span class="pre">'ctx':</span> <span class="pre">[],</span> <span class="pre">'current_url':</span> <span class="pre">'',</span> <span class="pre">'refresh_call':</span> <span class="pre">None,</span> <span class="pre">'reload_bookmarks':</span> <span class="pre">None,</span> <span class="pre">'reload_plug':</span> <span class="pre">None,</span> <span class="pre">'run_js':</span> <span class="pre">None,</span> <span class="pre">'update_url_bar_call':</span> <span class="pre">None}</span></em><a class="headerlink" href="#src.events.info" title="Permalink to this definition">¶</a></dt>
 <dd><p>Contains info about the browser</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="src.events.onReloadPlugs">
+<span class="sig-prename descclassname"><span class="pre">src.events.</span></span><span class="sig-name descname"><span class="pre">onReloadPlugs</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#src.events.onReloadPlugs" title="Permalink to this definition">¶</a></dt>
+<dd><p>Called when plugins are reloaded</p>
 </dd></dl>
 
 <dl class="py data">
@@ -106,6 +119,7 @@
 <li class="toctree-l1"><a class="reference internal" href="plug.html">Plug - The plugin system for parader</a></li>
 <li class="toctree-l1"><a class="reference internal" href="base.html">Base - The base plug for parader</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Events</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage - How to use parader!</a></li>
 </ul>
 
 <div class="relations">
@@ -113,6 +127,7 @@
 <ul>
   <li><a href="index.html">Documentation overview</a><ul>
       <li>Previous: <a href="base.html" title="previous chapter">Base - The base plug for parader</a></li>
+      <li>Next: <a href="usage.html" title="next chapter">Usage - How to use parader!</a></li>
   </ul></li>
 </ul>
 </div>
